@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.name{
+    color: #d30050 ;
+}
+.MakeAppointment{
+    border-radius: 20px;
+    background-color: #cda34d;
+}
+.navigation{
+    background-color: black;
+     z-index: 2;
+    
+}
+
+.productimg{
+   z-index: 1;
+   top: -30px;
+}
+
+
+.lookingpara{
+    font-size: 20px;
+
+}
+
+.lookinghead{
+    color: navy;
+}
+.LookingForProfessional{
+background: linear-gradient(-90deg, rgb(236, 140, 172), rgb(145, 68, 145));
+}
+
+.BtnForService{
+    border-radius: 20px;
+    background-color: #cda34d;
+}
+
+.ServiceCol{
+    box-shadow: 0 0 20px grey;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.Price{
+    border-radius: 20px;
+    background-color:#d30050 ;
+
+}
+
+.BeautyCare{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/pic4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .text{
+    /* position: absolute;
+    top: 40%;
+    left: 20%; */
+    padding-top: 150px;
+    padding-left: 400px;
+}  
+
+.blueline{
+    width: 70px;
+    height: 3px;
+    background-color: blue;
+    display: block;
+    
+}
+
+.subdiv{
+    box-shadow: 0 0 20px grey;
+}
+
+.firstli{
+    list-style: none;
+}
+
+.secanchor:hover{
+    color: #d30050;
+}
+
+/* Pricing Page */
+
+.pricing{
+    background-color: red;
+    width: auto;
+    height: 300px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    z-index: 1;
+    top: -30px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    .BeautyCare{
+        height: 240px;
+        background-size: cover;
+    }
+    .text h1 {
+        font-size: 24px;
+    }
+    
+    .text p {
+        font-size: 14px;
+    }
+    
+    .text {
+        padding: 44px 0;
+    }
+    }
